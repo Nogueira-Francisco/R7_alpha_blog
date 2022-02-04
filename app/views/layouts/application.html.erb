@@ -10,8 +10,11 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body>
-    <%= render 'layouts/navigation_bar' %>
-    <%= yield %>
+  <body class="d-flex flex-column">
+    <div id="page-content">
+      <%= render 'layouts/navigation_bar' %>
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>

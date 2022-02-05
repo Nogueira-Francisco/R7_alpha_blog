@@ -8,6 +8,16 @@
   color: white !important;
 }
 
+.text-success {
+  text-decoration: none !important;
+  
+}
+
+.text-success:hover {
+  text-decoration: underline !important;
+}
+
+
 #logo {
   float: left;
   font-size: 1,7cm;
@@ -47,4 +57,27 @@ body {
 body {
   background: lightgray;
   background: linear-gradient(to right, darkgray,lightgray);
+}
+
+#article-card {
+  margin-top: 25px;
+  width: 800px;
+}
+
+.darker-background {
+  background-color: rgb(238, 236, 236);
+}
+
+.btn-article {
+  width: 250px;
+}
+
+.mrg-top-25 {
+  margin-top: 25px;
+}
+
+#cancel-article {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
 }
